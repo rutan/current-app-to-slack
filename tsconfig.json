@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "outDir": "./lib/",
+        "alwaysStrict": true,
+        "declaration": true,
+        "noImplicitAny": false,
+        "pretty": true,
+        "sourceMap": true,
+        "types": ["node"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+}

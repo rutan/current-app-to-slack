@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Discord",
+    "emoji": [
+      "discord",
+      "video_game"
+    ]
+  },
+  {
+    "name": "Finder",
+    "emoji": [
+      "mac",
+      "apple"
+    ]
+  },
+  {
+    "name": "Google Chrome",
+    "emoji": "chrome"
+  },
+  {
+    "name": "Safari",
+    "emoji": "safari"
+  },
+  {
+    "name": "Sketch",
+    "emoji": "sketch"
+  },
+  {
+    "name": "Slack",
+    "emoji": "slack"
+  },
+  {
+    "name": "Steam",
+    "emoji": [
+      "steam",
+      "video_game"
+    ]
+  },
+  {
+    "name": "TweetDeck",
+    "emoji": [
+      "tweetdeck",
+      "twitter"
+    ]
+  },
+  {
+    "name": "Xcode",
+    "emoji": "xcode"
+  },
+  {
+    "name": "firefox",
+    "emoji": "firefox"
+  },
+  {
+    "name": "iTerm2",
+    "emoji": [
+      "iterm2",
+      "terminal"
+    ]
+  },
+  {
+    "name": "idea",
+    "emoji": "intellij"
+  },
+  {
+    "shortName": "Code",
+    "emoji": "vscode"
+  },
+  {
+    "shortName": "Excel",
+    "emoji": "excel"
+  },
+  {
+    "shortName": "Photoshop CC",
+    "emoji": [
+      "photoshop",
+      "adobe"
+    ]
+  },
+  {
+    "shortName": "PowerPoint",
+    "emoji": "powerpoint"
+  },
+  {
+    "shortName": "Word",
+    "emoji": "word"
+  }
+]

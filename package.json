@@ -1,0 +1,51 @@
+{
+  "name": "@rutan/current-app-to-slack",
+  "version": "0.1.0",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "author": "ru_shalm",
+  "email": "ru_shalm@hazimu.com",
+  "license": "MIT",
+  "homepage": "https://github.com/rutan/current-app-to-slack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutan/current-app-to-slack"
+  },
+  "bin": {
+    "current-app-to-slack": "./bin/current-app-to-slack.js"
+  },
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./lib/main.js",
+    "build": "run-s lint test clean build:*",
+    "build:ts": "NODE_ENV=production tsc",
+    "clean": "rimraf ./lib",
+    "watch": "tsc -w",
+    "test": "mocha --compilers ts:espower-typescript/guess test/**/*.ts",
+    "test:watch": "mocha --watch --compilers ts:espower-typescript/guess test/**/*.ts",
+    "lint": "tslint -c tslint.json ./src/**/*.ts",
+    "lint:fix": "tslint --fix -c tslint.json ./src/**/*.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.53",
+    "espower-typescript": "^8.0.0",
+    "mocha": "^4.0.1",
+    "npm-run-all": "^4.0.2",
+    "power-assert": "^1.4.2",
+    "rimraf": "^2.6.1",
+    "tslint": "^5.3.2",
+    "typescript": "^2.3.3"
+  },
+  "dependencies": {
+    "inquirer": "^4.0.0",
+    "mkdirp": "^0.5.1",
+    "slack-node": "^0.1.8"
+  }
+}
