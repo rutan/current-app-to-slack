@@ -15,6 +15,7 @@
     "current-app-to-slack": "./bin/current-app-to-slack.js"
   },
   "files": [
+    "bin/",
     "src/",
     "lib/"
   ],
