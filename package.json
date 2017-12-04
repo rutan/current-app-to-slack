@@ -16,6 +16,8 @@
   },
   "files": [
     "bin/",
+    "data/",
+    "script/",
     "src/",
     "lib/"
   ],
