@@ -1,5 +1,4 @@
 import {exec} from "child_process";
-import * as fs from "fs";
 import * as path from "path";
 
 const scriptPath = path.join(__dirname, "..", "script", "mac.js");

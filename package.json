@@ -26,29 +26,20 @@
   },
   "scripts": {
     "start": "node ./lib/main.js",
-    "build": "run-s lint test clean build:*",
+    "build": "run-s clean build:*",
     "build:ts": "NODE_ENV=production tsc",
     "clean": "rimraf ./lib",
-    "watch": "tsc -w",
-    "test": "mocha --compilers ts:espower-typescript/guess test/**/*.ts",
-    "test:watch": "mocha --watch --compilers ts:espower-typescript/guess test/**/*.ts",
-    "lint": "tslint -c tslint.json ./src/**/*.ts",
-    "lint:fix": "tslint --fix -c tslint.json ./src/**/*.ts"
+    "watch": "tsc -w"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.53",
-    "espower-typescript": "^8.0.0",
-    "mocha": "^4.0.1",
-    "npm-run-all": "^4.0.2",
-    "power-assert": "^1.4.2",
-    "rimraf": "^2.6.1",
-    "tslint": "^5.3.2",
-    "typescript": "^2.3.3"
+    "@types/node": "^17.0.31",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
   },
   "dependencies": {
-    "inquirer": "^4.0.0",
-    "mkdirp": "^0.5.1",
-    "slack-node": "^0.1.8"
+    "@slack/web-api": "^6.7.1",
+    "inquirer": "^8.2.4",
+    "mkdirp": "^1.0.4"
   }
 }
